@@ -1,0 +1,67 @@
+.footer{
+padding: 30px 0 45px 0;
+background-color: var(--c-grey-light);
+border-bottom: 1px solid var(--c-accent);
+box-shadow: var(--c-accent) 0px 0px 5px 0px;
+}
+.footerContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* .footerMyInfo{
+} */
+.footerMyName{
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 150%;
+  color: var(--txt-c-dark);
+  text-align: center;
+  margin-bottom: 15px;
+}
+.footerMyProfession{
+    font-size: 17px;
+    line-height: 150%;
+}
+.footerContacts{
+display: flex;
+  flex-direction: column;
+}
+.footerMyTell{
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+  text-decoration: none;
+  color: var(--txt-c-dark);
+  margin-bottom: 15px;
+}
+.footerMyMail{
+  font-size: 17px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--txt-c-dark);
+  text-decoration: none;
+}
+/* .footerSocialList{
+
+} */
+
+.footerSocialList li{
+  margin-right: 35px;
+  text-decoration: none;
+  /* color: var(--c-dark); */
+}
+
+.footerSocialList li:last-child  {
+  margin-right: 0;
+}
+.footerSocialList li a svg{
+  width: 30px;
+  height: 30px;
+}
+.footerSocialList li a::before,
+.footerSocialList li a:hover::before,
+.footerSocialList li a:focus::before {
+  content: none;
+}
