@@ -20,7 +20,7 @@
 
 .listLink:hover,
 .listLink:focus {
-  color: --c-accent;
+  color: var(--c-accent);
 }
 
 .activeListLink {

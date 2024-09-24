@@ -15,8 +15,23 @@
   justify-content: space-between;
   align-items: center;
 }
+.headerLogo{
+  width: 163px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  font-family: GreatVibes;
+  font-size: 30px;
+  line-height: 28px;
+  color: var(--txt-c-grey);
+}
 .headerLogo svg{
-  width: 70px;
+  position: absolute;
+  z-index: 1;
+  left: 0%;
+  width: 100px;
   height: auto;
 }
 .headerList {
@@ -24,11 +39,16 @@
   justify-content: space-between;
   color: var(--txt-c-grey);
 }
-.headerPart{
-  font-weight: bold;
+/* .headerPart{} */
+.headerPartFile{
+font-weight: bold;
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--c-accent);
+}
+.headerPartFile:hover,
+.headerPartFile:focus{
+  color: var(--txt-c-light);
 }

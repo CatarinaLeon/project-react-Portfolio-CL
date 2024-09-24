@@ -1,6 +1,6 @@
 export const configNavigation = [
   {
-    name: 'About',
+    name: 'About Me',
     url: '/about',
   },
   {

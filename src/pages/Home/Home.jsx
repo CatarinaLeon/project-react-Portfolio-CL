@@ -2,7 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Section from "../../common/Section/Section";
 import Container from "../../common/Container/Container";
-import Photo from "../../images/My_photo.jpg";
+// import Photo from "../../images/My_photo.jpg";
+import Photo from "../../images/My_photo-2.jpg";
 import BackgroundImageLaptop from "../../images/SVG/laptop.svg";
 import s from "./Home.module.css";
 
@@ -16,9 +17,12 @@ export default function Home() {
             alt="Kateryna Vasylieva"
             className={s.homePagePhoto}
           />
-          <h1 className={s.homePageMyName}>[Kateryna Vasylieva]</h1>
+          <h1 className={s.homePageMyName}>
+            Kateryna <br />
+            Vasylieva
+          </h1>
           <h2 className={s.homePageProfession}>
-            <span className={s.homePageProfessionPartLeft}>[Frontend]</span>
+            <span className={s.homePageProfessionPartLeft}>[Front-end]</span>
             <span className={s.homePageProfessionPartRight}>_DEVELOPER</span>
           </h2>
           <p className={s.homePageDescription}>

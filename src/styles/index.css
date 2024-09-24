@@ -103,3 +103,11 @@ button {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "GreatVibes";
+  src: url("../fonts/GreatVibes//GreatVibes-Regular.woff");
+  src: local("GreatVibes Regular"), local("GreatVibes-Regular"),
+    url("../fonts/GreatVibes/GreatVibes-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

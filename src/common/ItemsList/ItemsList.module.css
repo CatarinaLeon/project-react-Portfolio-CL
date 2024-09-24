@@ -1,0 +1,56 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  
+}
+.listItem{
+  width: 570px;
+  border-bottom: 1px solid var(--c-grey-blue);
+}
+.listItemContainerImg{
+  padding-top: 40px;
+  background: var(--c-dark-blue);
+  border-radius: 5px 5px 0 0;
+  position: relative;
+}
+.listItemDots{
+  position: absolute;
+  z-index: 1;
+  top: 0%;
+  left: 3%;
+  width: 40px;
+  height: 40px;
+}
+.listItemImg{
+width: 100%;
+}
+.listItemContainerTechno{
+  padding: 25px 0;
+}
+.listItemTechnoText{
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 150%;
+  color: var(--txt-c-light);
+  margin-bottom: 25px;
+}
+.listItemTechno{
+margin-left: 10px;
+}
+.listItemBtn{
+  background: var(--c-accent);
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--c-light);
+  padding: 20px 35px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  transition: var(--animation-transition);
+}

@@ -1,0 +1,32 @@
+.contactsContainer{
+  height: 800px;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  url('../../images/IMG_20230503_064153.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contactsListSocial{
+  width: 100px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contactsListSocial li{
+  /* margin-right: 35px; */
+  text-decoration: none;
+  /* color: var(--c-dark); */
+}
+
+/* .contactsListSocial li:last-child  {
+  margin-right: 0;
+} */
+.contactsListSocial li a svg{
+  width: 50px;
+  height: 50px;
+}
+.contactsListSocial li a::before,
+.contactsListSocial li a:hover::before,
+.contactsListSocial li a:focus::before {
+  content: none;
+}
